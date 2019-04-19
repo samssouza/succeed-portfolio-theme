@@ -1,0 +1,52 @@
+    /*
+Theme Name: My Professional Website
+Author: Samuel Silva
+Author URI: http://example.com
+Description: A professional portifolio website.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: phpforwp
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url("/css/bootstrap.min.css");
+
+@font-face {
+  	font-family: PlayfairDisplay;
+	src: url(fonts/PlayfairDisplay-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  	font-family: PlayfairDisplay;
+	src: url(fonts/PlayfairDisplay-Bold.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+
+body, html {
+	font-family: PlayFairDisplay;
+    margin:  0px;
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("img_girl.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+.center-aa {
+    margin: auto;
+}
